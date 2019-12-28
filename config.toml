@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://john-mccracken.com/"
+baseurl = "https://john-mccracken.com/"
 languageCode = "en-us"
 title = "John McCracken"
 theme = "hugo-orbit-theme"
