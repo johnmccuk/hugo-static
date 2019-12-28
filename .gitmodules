@@ -1,0 +1,3 @@
+[submodule "hugo-orbit-theme"]
+	path = hugo-orbit-theme
+	url = https://github.com/aerohub/hugo-orbit-theme

@@ -1,0 +1,238 @@
+# Page settings
+
+baseurl = "http://john-mccracken.com/"
+languageCode = "en-us"
+title = "John McCracken"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-79921517-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "John McCracken"
+        tagline = "Full Stack Developer"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: johnmccuk@gmail.com"
+        title = "johnmccuk@gmail.com"
+
+        #[[params.contact.list]]
+        #class = "phone"
+        #icon = "fa-phone"
+        #url = "tel:+1234567890"
+        #title = "+1234567890"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//dev.to/johnmccuk"
+        title = "dev.to"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/john-mccracken-025846a5"
+        title = "john-mccracken"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/johnmccuk"
+        title = "johnmccuk"
+
+        #[[params.contact.list]]
+        #class = "twitter"
+        #icon = "fa-twitter"
+        #url = "//twitter.com/johnmccuk"
+        #title = "@johnmccuk"
+
+        
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Certifications"
+
+        [[params.education.list]]
+        degree = "AWS Certified SysOps Administrator"
+        college = "Associate Level"
+        dates = ""
+
+        [[params.education.list]]
+        degree = "Splunk Certified"
+        college = ""
+        dates = ""
+
+        [[params.education.list]]
+        degree = "ECDL Assessor"
+        college = "The Chartered Institute for IT"
+        dates = ""
+
+    # Languages section
+    [params.language]
+        enable = false
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Running"
+
+        [[params.interests.list]]
+        interest = "Cycling"
+
+        [[params.interests.list]]
+        interest = "Outdoors"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "A dedicated and talented full stack web developer with experience in a variety of wide ranging projects. Fully up to date with current developments and techniques in the industry and always produces results to the highest standards."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Senior Developer"
+        dates = "2007 - Present"
+        company = "Warranty Services Ltd, Ayr, Scotland"
+        details = "Responsible for all company websites, online services and the infrastructure that provide these. Designing and implementing systems from user specifications is also a big part of my role."
+
+        [[params.jobs.list]]
+        position = "IT Tutor"
+        dates = "2005 - 2007"
+        company = "Access to Employment, Ayr, Scotland"
+        details = "Created and delivered coursework on a range of IT subjects within a Flexible Learning Centre. Advanced European Driving License provider and assessor."
+
+        [[params.jobs.list]]
+        position = "Digital Inclusion Trainer"
+        dates = "2003 - 2005"
+        company = "South Ayrshire Council, Ayr"
+        details = "Trainer for IT projects in the community partnered by Ayr College/ South Ayrshire Council."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "A list of some past blog posts."
+
+        [[params.projects.list]]
+        title = "Isolating PHP with Docker Containers"
+        url = "https://dev.to/johnmccuk/isolating-php-with-docker-containers-4epn"
+        tagline = "PHP and Docker for a quick experiment"
+
+        [[params.projects.list]]
+        title = "Automate AWS security group with CloudFlare IPs"
+        url = "https://dev.to/johnmccuk/automate-aws-security-group-with-cloudflare-ips-la6"
+        tagline = "Setting up AWS security groups with Cloudflare"
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Amazon Web Services"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Laravel, CakePHP"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "SugarCRM, SuiteCRM"
+        level = "90%"
+                
+        [[params.skills.list]]
+        skill = "Debian, Ubuntu, Centos"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "MYSQL, MongoDB, DynamoDB"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "CloudFormation, Packer, Jenkins"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Docker, Kubernetes"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "AngularJS, Vue.js, React"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Hugo, Gatsby"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "john mccracken"
