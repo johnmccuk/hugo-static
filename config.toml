@@ -145,10 +145,17 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Senior Developer"
-        dates = "2007 - Present"
-        company = "Warranty Services Ltd, Ayr, Scotland"
+        position = "Senior Developer/Manager"
+        dates = "2020 - Present"
+        company = "Certass Ltd, Ayr, Scotland"
         details = "Responsible for all company websites, online services and the infrastructure that provide these. Designing and implementing systems from user specifications is also a big part of my role."
+
+
+        [[params.jobs.list]]
+        position = "Senior Developer"
+        dates = "2007 - 2020"
+        company = "Warranty Services Ltd, Ayr, Scotland"
+        details = "Responsible for company websites, online services and the infrastructure that provide these."
 
         [[params.jobs.list]]
         position = "IT Tutor"
