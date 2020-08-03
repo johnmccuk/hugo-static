@@ -225,8 +225,12 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
-        skill = "AngularJS, Vue.js, React"
+        skill = "Vue.js, React"
         level = "70%"
+
+        [[params.skills.list]]
+        skill = "365, Sharepoint, Exchange"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Hugo, Gatsby"
