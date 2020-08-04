@@ -24,7 +24,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "John McCracken"
         tagline = "Full Stack Developer"
-        avatar = "profile.jpg"
+        avatar = "profile.png"
 
     # Contact section
     [params.contact]
